@@ -3115,7 +3115,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </classes>
 <parts>
 <part name="U1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="ARDUINOR3" device="-BPLACE"/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -3135,6 +3134,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
+<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
+<part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -3142,7 +3144,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="99.06" y="12.7"/>
-<instance part="J1" gate="J$1" x="139.7" y="45.72" rot="R90"/>
 <instance part="GND2" gate="1" x="137.16" y="58.42" rot="R180"/>
 <instance part="J2" gate="J$1" x="160.02" y="45.72" rot="R90"/>
 <instance part="GND4" gate="1" x="157.48" y="58.42" rot="R180"/>
@@ -3165,13 +3166,15 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <instance part="SUPPLY1" gate="G$1" x="154.94" y="-33.02" rot="R180"/>
 <instance part="SUPPLY2" gate="G$1" x="182.88" y="-33.02" rot="R180"/>
 <instance part="SUPPLY3" gate="G$1" x="205.74" y="-33.02" rot="R180"/>
+<instance part="J5" gate="J$1" x="160.02" y="27.94" rot="R90"/>
+<instance part="J6" gate="J$1" x="177.8" y="27.94" rot="R90"/>
+<instance part="J7" gate="J$1" x="200.66" y="27.94" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="J1" gate="J$1" pin="3"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="137.16" y1="55.88" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
 </segment>
@@ -3205,7 +3208,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="132.08" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="53.34" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="43.18" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="J1" gate="J$1" pin="1"/>
 <wire x1="142.24" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="53.34" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="40.64" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
